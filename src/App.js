@@ -1,11 +1,10 @@
 import React from 'react';
-import { directive } from '@babel/types';
-
+import HomePage from './homepage.component'
 
 function App() {
   return (
     <div>
-      Hello React
+      <HomePage/>
     </div>
   );
 }
